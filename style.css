@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(347, 65%, 14%);
+    color: #040101;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    border: 4px solid #f1f1f1;
+}
+
+.badge {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    background-color: #220316;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.card {
+    background-color: hsl(347, 65%, 14%);        
+    color: #ffffff;                   
+    border: 2px solid #ecdce4;        
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);           
+}
+
+.card-title {
+    color: #da2020;                  
+}
+
+.card-text {
+    color: #000000;                  
+}
+
+.card-img-top {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  .card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 20;
+      transform: translateY(10);
+    }
+  }
+  
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .btn-link {
+    color: #341e7b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-link:hover {
+    color: #da2020;
+    text-decoration: underline;
+  }
+  .footer {
+    background-color: hsl(345, 67%, 10%);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #341e7b;
+    text-decoration: none;
+    transition: color 0.5s ease;
+  }
+  
+  .footer a:hover {
+    color: #da2020;
+    text-decoration: underline;
+  }
+ 
+    
+  
